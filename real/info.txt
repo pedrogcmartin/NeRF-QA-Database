@@ -1,0 +1,3 @@
+Dataset: Tanks&Temples
+Scenes: M60, Playground, Train, Truck
+Methods: DVGO, Mip-NeRF 360, Nerfacto, NeRF++
