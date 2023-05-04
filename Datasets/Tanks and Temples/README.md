@@ -14,7 +14,7 @@ The training images spatial resolution are: 1077×546 pixels for *M60*, 1008×54
 The training images are used as input for the methods training and the camera path folder is used to generate the synthesized video with the same camera path as the reference video. The reference videos of this dataset do not require any folder to generate them as they are directly extracted from the original videos with the required video preprocesing (namely, downsampling to 960×540 pixels, followed by a cropping to 922×522 pixels, and a temporal clipping of 10 s).
 
 
-#Attribution
+# Attribution
 
 The used images are from the *Tanks and Temples* dataset located on tanksandtemples.org
 m60: https://drive.google.com/file/d/0B-ePgl6HF260dG9nTzZHdkRJblE/view?resourcekey=0-xjiyqBN2rRmYLnMBf-W_7w
