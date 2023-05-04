@@ -4,7 +4,6 @@ Datasets:
 - Tanks and Temples (processed as in https://github.com/Kai-46/nerfplusplus)
 
 
-
 Scenes: 
 
 - Drums, Ficus, Lego, and Ship
