@@ -1,4 +1,0 @@
-Dataset: NeRF Synthetic (processed in https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1)
-Scenes: drums, ficus, lego, ship
-Methods: DVGO, Instant-NGP, TensoRF, Plenoxels
-(with and without a training set subsampling of factor 2)
