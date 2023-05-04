@@ -20,10 +20,6 @@ Structure:
     transforms_test.json
     camera_path.json
 
-Transform json details:
-camera_angle_x: The FOV in x dimension
-frames: List of dictionaries that contain the camera transform matrices for each image.
-
 Attribution:
 The renders are from modified blender models located on blendswap.com
 drums by bryanajones (CC-BY): https://www.blendswap.com/blend/13383
