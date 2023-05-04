@@ -2,7 +2,7 @@ This directory contains a dataset of synthetically rendered images that were use
 Neural Radiance Fields for View Synthesis".
 
 Stats:
-+ 8 Scenes
++ 4 Scenes
 + 100 Training images
 + 100 Validation images
 + 200 Test images
@@ -28,11 +28,7 @@ frames: List of dictionaries that contain the camera transform matrices for each
 
 Attribution:
 The renders are from modified blender models located on blendswap.com
-chair by 1DInc (CC-0): https://www.blendswap.com/blend/8261
 drums by bryanajones (CC-BY): https://www.blendswap.com/blend/13383
 ficus by Herberhold (CC-0): https://www.blendswap.com/blend/23125
-hotdog by erickfree (CC-0): https://www.blendswap.com/blend/23962
 lego by Heinzelnisse (CC-BY-NC): https://www.blendswap.com/blend/11490
-materials by elbrujodelatribu (CC-0): https://www.blendswap.com/blend/10120
-mic by up3d.de (CC-0): https://www.blendswap.com/blend/23295
 ship by gregzaal (CC-BY-SA): https://www.blendswap.com/blend/8167
