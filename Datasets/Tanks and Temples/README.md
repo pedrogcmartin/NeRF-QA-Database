@@ -6,8 +6,8 @@ Four scenes were considered from *Tanks and Temples*: *M60*, *Playground*, *Trai
 
 Each scene folder contains:
 
-• The training images (277 for *M60*, 275 for *Playground*, 258 for *Train*, and 226 for *Truck*).
-• One camera path.
++ The training images (277 for *M60*, 275 for *Playground*, 258 for *Train*, and 226 for *Truck*).
++ One camera path.
 
 The training images spatial resolution are: 1077×546 pixels for *M60*, 1008×548 pixels for *Playground*, 982×546 pixels for *Train*, and 980×546 pixels for *Truck*.
 
@@ -17,7 +17,7 @@ The training images are used as input for the methods training and the camera pa
 # Attributions
 
 The used images are from the *Tanks and Temples* dataset located on tanksandtemples.org
-m60: https://drive.google.com/file/d/0B-ePgl6HF260dG9nTzZHdkRJblE/view?resourcekey=0-xjiyqBN2rRmYLnMBf-W_7w
-playground: https://drive.google.com/file/d/0B-ePgl6HF260d0JoR2pWak9RbnM/view?resourcekey=0-zFg5ZGEBWA1USZ0pkqgUog
-train: https://drive.google.com/file/d/0B-ePgl6HF260YUttRUI4U0xtS1E/view?resourcekey=0-fLiJMIqX8waMDBvg6XsEbw
-truck: https://drive.google.com/file/d/0B-ePgl6HF260aVVZMzhSdVc5Njg/view?resourcekey=0-QYlGb_jIaM7Kq8NQQYZuyA
++ m60: https://drive.google.com/file/d/0B-ePgl6HF260dG9nTzZHdkRJblE/view?resourcekey=0-xjiyqBN2rRmYLnMBf-W_7w
++ playground: https://drive.google.com/file/d/0B-ePgl6HF260d0JoR2pWak9RbnM/view?resourcekey=0-zFg5ZGEBWA1USZ0pkqgUog
++ train: https://drive.google.com/file/d/0B-ePgl6HF260YUttRUI4U0xtS1E/view?resourcekey=0-fLiJMIqX8waMDBvg6XsEbw
++ truck: https://drive.google.com/file/d/0B-ePgl6HF260aVVZMzhSdVc5Njg/view?resourcekey=0-QYlGb_jIaM7Kq8NQQYZuyA
