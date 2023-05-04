@@ -11,19 +11,10 @@ Each scene folder contains:
 
 The training images are used as input for the methods training, the test images are used to generate the reference video, and the camera path file is used to generate the synthesized video with the same camera path as the reference video.
 
-Structure:
-  SCENE_NAME
-    -train
-      r_*.png
-    -test
-      r_*.png
-      r_*_depth_0000.png
-      r_*_normal_0000.png
-    transforms_train.json
-    transforms_test.json
-    camera_path.json
 
-Attribution:
+
+# Attributions
+
 The renders are from modified blender models located on blendswap.com
 drums by bryanajones (CC-BY): https://www.blendswap.com/blend/13383
 ficus by Herberhold (CC-0): https://www.blendswap.com/blend/23125
