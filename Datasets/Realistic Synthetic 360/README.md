@@ -4,23 +4,21 @@ Neural Radiance Fields for View Synthesis".
 Stats:
 + 4 Scenes
 + 100 Training images
-+ 100 Validation images
 + 200 Test images
++ 1 Camera path
 + Images are 800x800
 
 Structure:
   SCENE_NAME
     -train
       r_*.png
-    -val
-      r_*.png
     -test
       r_*.png
       r_*_depth_0000.png
       r_*_normal_0000.png
     transforms_train.json
-    transforms_val.json
     transforms_test.json
+    camera_path.json
 
 Transform json details:
 camera_angle_x: The FOV in x dimension
