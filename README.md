@@ -9,20 +9,18 @@ The Neural Radiance Fields Quality Assessment (NeRF-QA) database contains:
 + Results of a subjective study comparing the qualities of the reference and synthesized videos by a group of 20 participants (in the "DMOS.xlsx" file).
 
 The selected videos from *Tanks and Temples* were:
-+ *M60*
-+ *Playground*
-+ *Train*
-+ *Truck* 
++ *M60* (277 training images with 1077×546 pixels each)
++ *Playground* (275 training images with 1008×548 pixels each)
++ *Train* (258 training images with 982×546 pixels each)
++ *Truck* (226 training images with 980×546 pixels each)
 
-This dataset was used as processed in [4], where the number of training frames are equal to 277, 275, 258, and 226 frames, respectively, having spatial resolutions of 1077×546, 1008×548, 982×546, and 980×546 pixels. For the subjective test purpose, the spatial resolutions of the real scenes were uniformized with a downsampling to 960×540 pixels, followed by a cropping to 928×522 pixels.
+For the subjective test purpose, the spatial resolutions of the real scenes were uniformized with a downsampling to 960×540 pixels, followed by a cropping to 928×522 pixels.
 
 The scenes selected from *Realistic Synthetic 360º* were:
-+ *Drums*
-+ *Ficus*
-+ *Lego* 
-+ *Ship*
-
-where all scenes have 100 training frames with spatial resolutions of 800×800 pixels. For generating the reference videos, the video duration was set to 10 s for real scenes, and to 6 s for synthetic scenes. In every case, the rendered camera poses do not coincide with the training poses.
++ *Drums* (100 training images with 800×800 pixels each)
++ *Ficus* (100 training images with 800×800 pixels each)
++ *Lego* (100 training images with 800×800 pixels each)
++ *Ship* (100 training images with 800×800 pixels each)
 
 The NeRF methods selected for the real scenes were:
 + DVGO [1]
