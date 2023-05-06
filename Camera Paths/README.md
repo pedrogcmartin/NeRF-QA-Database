@@ -1,0 +1,1 @@
+This directory contains the camera paths information from the reference videos of each scene and that is used to generate the same camera path for the synthesized videos. The COLMAP framework is used for pose estimation.
