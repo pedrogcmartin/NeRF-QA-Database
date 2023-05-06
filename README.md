@@ -8,9 +8,35 @@ The Neural Radiance Fields Quality Assessment (NeRF-QA) database contains:
 + Synthesized videos of the same test time interval of the reference videos due to the camera paths available information (in the "Synthesized Videos" folder);
 + Results of a subjective study comparing the qualities of the reference and synthesized videos by a group of 20 participants (in the "DMOS.xlsx" file).
 
-The selected videos from *Tanks and Temples* were *M60*, *playground*, *train*, and *truck*. This dataset was used as processed in [4], where the number of training frames are equal to 277, 275, 258, and 226 frames, respectively, having spatial resolutions of 1077×546, 1008×548, 982×546, and 980×546 pixels. The scenes selected from *Realistic Synthetic 360º* were *drums*, *ficus*, *lego*, and *ship*, having all 100 training frames with spatial resolutions of 800×800 pixels. For the subjective test purpose, the spatial resolutions of the real scenes were uniformized with a downsampling to 960×540 pixels, followed by a cropping to 928×522 pixels. For generating the reference videos, the video duration was set to 10 s for real scenes, and to 6 s for synthetic scenes. In every case, the rendered camera poses do not coincide with the training poses. 
+The selected videos from *Tanks and Temples* were:
++ *M60*
++ *Playground*
++ *Train*
++ *Truck* 
 
-The NeRF methods selected for the real scenes were DVGO, Mip-NeRF 360, Nerfacto, NeRF++ [1,3,4,5]. For the synthetic scenes, the selected synthesis methods were DVGO, Instant-NGP, Plenoxels, and TensoRF [1,2,6,7]. The selected datasets have already been used in published works, enabling the validation of the herein generated synthesized videos, by comparison of the obtained objective quality metrics values (using PSNR and SSIM) with the values reported on those works. Lastly, the synthetic scenes were also synthesized for the case where a subsampling with a factor of 2 was applied to the training set, seeking synthesized video qualities covering the lowest qualities range.
+This dataset was used as processed in [4], where the number of training frames are equal to 277, 275, 258, and 226 frames, respectively, having spatial resolutions of 1077×546, 1008×548, 982×546, and 980×546 pixels. For the subjective test purpose, the spatial resolutions of the real scenes were uniformized with a downsampling to 960×540 pixels, followed by a cropping to 928×522 pixels.
+
+The scenes selected from *Realistic Synthetic 360º* were:
++ *Drums*
++ *Ficus*
++ *Lego* 
++ *Ship*
+
+where all scenes have 100 training frames with spatial resolutions of 800×800 pixels. For generating the reference videos, the video duration was set to 10 s for real scenes, and to 6 s for synthetic scenes. In every case, the rendered camera poses do not coincide with the training poses.
+
+The NeRF methods selected for the real scenes were:
++ DVGO [1]
++ Mip-NeRF 360 [3]
++ Nerfacto [4]
++ NeRF++ [5] 
+
+For the synthetic scenes, the selected synthesis methods were:
++ DVGO [1]
++ Instant-NGP [2]
++ Plenoxels [6]
++ TensoRF [7]
+
+The selected datasets have already been used in published works, enabling the validation of the herein generated synthesized videos, by comparison of the obtained objective quality metrics values (using PSNR and SSIM) with the values reported on those works. Lastly, the synthetic scenes were also synthesized for the case where a subsampling with a factor of 2 was applied to the training set, seeking synthesized video qualities covering the lowest qualities range.
 
 ![DSCQS](https://github.com/pedrogcmartin/NeRF-QA-Database/blob/main/images/DSCQS.jpg)
 
