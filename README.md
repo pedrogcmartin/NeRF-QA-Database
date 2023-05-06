@@ -1,5 +1,7 @@
 # NeRF-QA Database
 
+![DSCQS](https://github.com/pedrogcmartin/NeRF-QA-Database/blob/main/images/DSCQS.jpg)
+
 The Neural Radiance Fields Quality Assessment (NeRF-QA) database contains: 
 
 + Information about visual scenes that is used for NeRF based methods training (in the "Raw Visual Scenes" folder) with eight, real and synthetic, visual scenes (in the "Tanks and Temples" and "Realistic Synthetic 360" folders, respectively) that are used to train seven NeRF based methods (nameley: DVGO, Instant-NGP, Mip-NeRF 360, Nerfacto, NeRF++, Plenoxels, and TensoRF [1,2,3,4,5,6,7]);
@@ -35,8 +37,6 @@ For the synthetic scenes, the selected synthesis methods were:
 + TensoRF [7]
 
 The selected datasets have already been used in published works, enabling the validation of the herein generated synthesized videos, by comparison of the obtained objective quality metrics values (using PSNR and SSIM) with the values reported on those works. Lastly, the synthetic scenes were also synthesized for the case where a subsampling with a factor of 2 was applied to the training set, seeking synthesized video qualities covering the lowest qualities range.
-
-![DSCQS](https://github.com/pedrogcmartin/NeRF-QA-Database/blob/main/images/DSCQS.jpg)
 
 The Double Stimulus Continous Quality Scale (DSCQS) was selected as an evaluation method. A total of 48 pairs of stimulus (32 synthesized synthetic videos + 16 synthesized real videos, together with the respective original videos) were assessed. After the test, the resulting scores were processed according to [11] to obtain Differential Mean Opinion Score (DMOS) values for each synthesized video. More details about the subjective assessment procedure can be found in [11].
 
