@@ -1,6 +1,6 @@
 # NeRF-QA Database
 
-![DSCQS](https://github.com/pedrogcmartin/NeRF-QA-Database/blob/main/images/DSCQS.jpg)
+![DSCQS](https://github.com/pedrogcmartin/NeRF-QA-Database/blob/main/github%20images/DSCQS.jpg)
 
 The Neural Radiance Fields Quality Assessment (NeRF-QA) database contains: 
 
