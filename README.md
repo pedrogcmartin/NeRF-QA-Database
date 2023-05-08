@@ -1,4 +1,10 @@
-# NeRF-QA Database
+# NeRF-QA: Neural Radiance Fields Quality Assessment Database
+
+Pedro Martin, António Rodrigues, João Ascenso, Maria Paula Queluz
+
+Instituto de Telecomunicações, Instituto Superior Técnico, University of Lisbon
+
+ArXiv: https://arxiv.org/abs/2305.03176
 
 ![DSCQS](https://github.com/pedrogcmartin/NeRF-QA-Database/blob/main/github%20images/DSCQS.jpg)
 
