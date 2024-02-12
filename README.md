@@ -4,7 +4,7 @@ Pedro Martin, António Rodrigues, João Ascenso, Maria Paula Queluz
 
 Instituto de Telecomunicações, Instituto Superior Técnico, University of Lisbon
 
-ArXiv: https://arxiv.org/abs/2305.03176
+Paper: https://ieeexplore.ieee.org/document/10178625
 
 ![DSCQS](https://github.com/pedrogcmartin/NeRF-QA-Database/blob/main/github%20images/DSCQS.jpg)
 
