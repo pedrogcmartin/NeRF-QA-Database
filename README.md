@@ -10,11 +10,12 @@ ArXiv: https://arxiv.org/abs/2305.03176
 
 The Neural Radiance Fields Quality Assessment (NeRF-QA) database contains: 
 
-+ Information about visual scenes that is used for NeRF based methods training (in the "Raw Visual Scenes" folder) with eight, real and synthetic, visual scenes (in the "Tanks and Temples" and "Realistic Synthetic 360" folders, respectively) that are used to train seven NeRF based methods (nameley: DVGO, Instant-NGP, Mip-NeRF 360, Nerfacto, NeRF++, Plenoxels, and TensoRF [1,2,3,4,5,6,7]);
-+ Reference videos of the visual scenes (in the "Reference Videos" folder), with durations of 10 s and 6 s, for real and synthetics scenes, respectively;
++ Information about visual scenes that is used for NeRF based methods training (in the "Raw Visual Scenes" folder) with eight, real and synthetic, 360-degree camera acquition visual scenes (in the "Tanks and Temples" and "Realistic Synthetic 360" folders, respectively) and eight, real and synthetic, front-facing (FF) camera acquisition visual scenes (in the "Front-facing IST" folder) that are used to train seven NeRF based methods (nameley: DVGO, Instant-NGP, Mip-NeRF 360, Nerfacto, NeRF++, Plenoxels, and TensoRF [1,2,3,4,5,6,7]);
++ Reference videos of the visual scenes (in the "Reference Videos" folder), with durations of 10s (and of 8s for 360-degree synthetics scenes);
 + Camera paths with the pose estimation of the reference videos enabling the creation of synthesized videos with the same camera path (in the "Camera Paths" folder);
 + Synthesized videos of the same test time interval of the reference videos due to the camera paths available information (in the "Synthesized Videos" folder);
-+ Results of a subjective study comparing the qualities of the reference and synthesized videos by a group of 20 participants (in the "DMOS.xlsx" file).
++ Results of a subjective study comparing the qualities of the reference and synthesized videos by a group of 22 participants (in the "DMOS.xlsx" file).
++ **Note:** This is an updated version of the NeRF-QA database with new material (namely, the "Front-facing IST" visual scenes dataset and a new subjective test conducted on 22 participants).
 
 The selected videos from *Tanks and Temples* were:
 + *M60* (277 training images with 1077×546 pixels each)
@@ -30,21 +31,51 @@ The scenes selected from *Realistic Synthetic 360º* were:
 + *Lego* (100 training images with 800×800 pixels each)
 + *Ship* (100 training images with 800×800 pixels each)
 
-The NeRF methods selected for the real scenes were:
+The real scenes selected from *Front-Facing IST* were:
++ *Antique* (351 training images with 960x540 pixels each)
++ *Flowers* (377 training images with 960x540 pixels each)
++ *Playground2* (291 training images with 960x540 pixels each)
++ *Statue* (228 training images with 960x540 pixels each)
+
+The synthetics scenes selected from *Front-Facing IST* were:
++ *Classroom* (300 training images with 960x540 pixels each)
++ *Mugs* (300 training images with 960x540 pixels each)
++ *Office* (300 training images with 960x540 pixels each)
++ *Tea* (300 training images with 960x540 pixels each)
+
+The NeRF methods selected for the 360-degree real scenes were:
 + DVGO [1]
 + Mip-NeRF 360 [3]
 + Nerfacto [4]
 + NeRF++ [5] 
 
-For the synthetic scenes, the selected synthesis methods were:
+For the synthetic scenes, the selected 360-degree synthesis methods were:
 + DVGO [1]
 + Instant-NGP [2]
 + Plenoxels [6]
 + TensoRF [7]
 
-The selected datasets have already been used in published works, enabling the validation of the herein generated synthesized videos, by comparison of the obtained objective quality metrics values (using PSNR and SSIM) with the values reported on those works. Lastly, the synthetic scenes were also synthesized for the case where a subsampling with a factor of 2 was applied to the training set, seeking synthesized video qualities covering the lowest qualities range.
+The NeRF methods selected for the FF real scenes were:
++ DVGO [1]
++ Mip-NeRF 360 [3]
++ Nerfacto [4]
++ NeRF++ [5] 
 
-The Double Stimulus Continous Quality Scale (DSCQS) was selected as an evaluation method. A total of 48 pairs of stimulus (32 synthesized synthetic videos + 16 synthesized real videos, together with the respective original videos) were assessed. After the test, the resulting scores were processed according to [11] to obtain Differential Mean Opinion Score (DMOS) values for each synthesized video. More details about the subjective assessment procedure can be found in [11].
+For the synthetic scenes, the selected FF synthesis methods were:
++ DVGO [1]
++ Instant-NGP [2]
++ Mip-NeRF 360 [3]
++ Nerfacto [4]
++ NeRF++ [5] 
++ TensoRF [7]
+
+The selected 360-degree datasets (namely: *Tanks and Temples* and *Realistic Synthetic 360*) have already been used in published works, enabling the validation of the herein generated synthesized videos, by comparison of the obtained objective quality metrics values (using PSNR, SSIM, and LPIPS) with the values reported on those works. Lastly, the 360-degree synthetic scenes were also synthesized for the case where a subsampling with a factor of 2 was applied to the training set, seeking synthesized video qualities covering the lowest qualities range.
+
+The Double Stimulus Continous Quality Scale (DSCQS) was selected as an evaluation method. A total of 88 pairs of stimulus (56 synthesized synthetic videos + 32 synthesized real videos, together with the respective original videos) were assessed. After the test, the resulting scores were processed according to [11] to obtain Differential Mean Opinion Score (DMOS) values for each synthesized video. More details about the subjective assessment procedure can be found in [11].
+
+# Citation
+
+P. Martin, A. Rodrigues, J. Ascenso and M. P. Queluz, "NeRF-QA: Neural Radiance Fields Quality Assessment Database," 2023 15th International Conference on Quality of Multimedia Experience (QoMEX), Ghent, Belgium, 2023, pp. 107-110, doi: 10.1109/QoMEX58391.2023.10178625.
 
 # References
 
