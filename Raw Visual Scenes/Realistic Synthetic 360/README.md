@@ -11,8 +11,6 @@ Each scene folder contains:
 
 The training images and poses are used as input for the NeRF based methods training. The json file also stores the intrinsics information regarding the camera poses for each training image.
 
-
-
 # Attributions
 
 The renders are from modified blender models located on blendswap.com

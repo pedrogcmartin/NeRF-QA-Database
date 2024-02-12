@@ -17,6 +17,18 @@ The Neural Radiance Fields Quality Assessment (NeRF-QA) database contains:
 + Results of a subjective study comparing the qualities of the reference and synthesized videos by a group of 22 participants (in the "DMOS.xlsx" file).
 + **Note:** This is an updated version of the NeRF-QA database with new material (namely, the "Front-facing IST" visual scenes dataset and a new subjective test conducted on 22 participants).
 
+The real scenes selected from *Front-Facing IST* were:
++ *Antique* (351 training images with 960x540 pixels each)
++ *Flowers* (377 training images with 960x540 pixels each)
++ *Playground2* (291 training images with 960x540 pixels each)
++ *Statue* (228 training images with 960x540 pixels each)
+
+The synthetics scenes selected from *Front-Facing IST* were:
++ *Classroom* (300 training images with 960x540 pixels each)
++ *Mugs* (300 training images with 960x540 pixels each)
++ *Office* (300 training images with 960x540 pixels each)
++ *Tea* (300 training images with 960x540 pixels each)
+
 The selected videos from *Tanks and Temples* were:
 + *M60* (277 training images with 1077×546 pixels each)
 + *Playground* (275 training images with 1008×548 pixels each)
@@ -30,18 +42,6 @@ The scenes selected from *Realistic Synthetic 360º* were:
 + *Ficus* (100 training images with 800×800 pixels each)
 + *Lego* (100 training images with 800×800 pixels each)
 + *Ship* (100 training images with 800×800 pixels each)
-
-The real scenes selected from *Front-Facing IST* were:
-+ *Antique* (351 training images with 960x540 pixels each)
-+ *Flowers* (377 training images with 960x540 pixels each)
-+ *Playground2* (291 training images with 960x540 pixels each)
-+ *Statue* (228 training images with 960x540 pixels each)
-
-The synthetics scenes selected from *Front-Facing IST* were:
-+ *Classroom* (300 training images with 960x540 pixels each)
-+ *Mugs* (300 training images with 960x540 pixels each)
-+ *Office* (300 training images with 960x540 pixels each)
-+ *Tea* (300 training images with 960x540 pixels each)
 
 The NeRF methods selected for the 360-degree real scenes were:
 + DVGO [1]
